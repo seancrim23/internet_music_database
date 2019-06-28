@@ -1,0 +1,27 @@
+{
+  "name": "internet_music_database",
+  "version": "1.0.0",
+  "description": "This will be a project that will act as an internet music database. Users will be able to sign in and search for their favorite albums. If these albums don't exist, users can upload them to the database. Users can leave ratings and also comment on albums. Also an API will be available that registered users can make use of to call the site's API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "env-cmd -f ./config/env/dev.env nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seancrim23/internet_music_database.git"
+  },
+  "author": "Sean Crim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seancrim23/internet_music_database/issues"
+  },
+  "homepage": "https://github.com/seancrim23/internet_music_database#readme",
+  "dependencies": {
+    "env-cmd": "^9.0.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
