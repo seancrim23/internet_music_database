@@ -1,5 +1,5 @@
 # Internet Music Database
-This will be a project that will act as an internet music database. Users will be able to sign in and search for their favorite albums. If these albums don't exist, users can upload them to the database. Users can leave ratings and also comment on albums. Also an API will be available that registered users can make use of to call the site's API.
+This will be a project that will act as an internet music database. This will be a server side API only! Users can add artists and albums that they are interested in listening to. When they complete the listening to these artists they can leave a review and send a recommendation to friends!
 
 ## Site API/Docs
 <ul>
@@ -11,18 +11,14 @@ This will be a project that will act as an internet music database. Users will b
 </ul>
  
 ## TODO
-- [] Implement user login
-- [] User create tokens
-- [] Search database for albums
-- [] Search database for artists
-- [] Display results (if no results, prompt user to upload album/artist)
-- [] User select individual results
-- [] User able to rate, comment on individual album/(maybe) artist
-- [] User able to respond to comments from other users
-- [] User able to rate other user comments 
-- [] Rated comments should be sorted dynamically
-- [] User able to customize profile
-- [] Add style to pages
+- [x] Implement user login
+- [x] User create tokens
+- [] Allow users to upload albums
+- [] Allow users to upload artists
+- [] Allow users to search albums
+- [] Allow users to search artists
+- [] Allow users to send recommendations to friends by username
+
 
 
  
