@@ -23,6 +23,14 @@ var userSchema = new Schema({
             }
         }
     },
+    favAlbums: [{
+        type: Schema.Types.ObjectId,
+        ref: 'Album'
+    }],
+    favArtists: [{
+        type: Schema.Types.ObjectId,
+        ref: 'Artist'
+    }],
     tokens: [{
         token: {
             type: String,
